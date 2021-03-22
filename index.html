@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Theary</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+	    <!-- header -->
+		<header>
+			<div class="inner">
+				<nav>
+					<a href="" class="logo">Theory</a>
+					<div class="sidebar" id="side" >
+					    <ul>
+					    	<li> <a href="">Home</a></li>
+					    	<li> <a href="">Generic</a></li>
+					    	<li> <a href="">Elements</a></li>
+					    </ul>
+					</div>
+					<i class="menu fa fa-bars" id="toggle" onclick="toggleFunc()" aria-hidden="true"></i>
+				</nav>
+
+				<div class="headings">
+                    <h1>Welcome to Theory</h1>
+					<p>A free responsive HTML5 website template by TEMPLATED.</p>
+				</div>
+			</div>
+		</header>
+		<!-- section1 -->
+		<section class="info flex-box inner">
+			<section>
+			    <h2>Magna tempus sed amet aliquam veroeros</h2>
+			    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+			    <button class="more">more</button>
+			</section>
+			<!-- <hr> -->
+			<section>
+			    <h2>Interdum lorem pulvinar adipiscing vitae</h2>
+			    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+			    <button class="more">more</button>
+			</section>
+			<!-- <hr> -->
+			<section>
+			    <h2>Libero purus magna sapien sed ullamcorper</h2>
+			    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+			    <button class="more">more</button>
+			</section>
+		</section>
+		<!-- section2 -->
+		<section class="testimonial-wrapper">
+			<div class="inner">
+				<h1>Ipsum Feugiat</h1>
+				<p>Semper suscipit posuere apede</p>
+				<div class="flex-box">
+					<div class="testimonial">
+						<img src="/image/img/img2.jpg" alt="">
+					    <h2>Magna</h2>
+					    <p>Cipdum dolo</p>
+					</div>
+					<div class="testimonial">
+						<img src="/image/img/img3.jpg" alt="">
+					    <h2>Ipsum</h2>
+					    <p>Vestibulum comm</p>
+					</div>
+					<div class="testimonial">
+						<img src="/image/img/img4.jpg" alt="">
+					    <h2>Tempus</h2>
+					    <p>Fusce pellentes</p>
+					</div>
+					<div class="testimonial">
+						<img src="/image/img/img5.jpg" alt="">
+					    <h2>Dolore</h2>
+					    <p>Praesent placer</p>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- image gallery -->
+		<section class="inner image-galery">
+            <h2>Nunc Dignissim</h2>
+			<p>Aliquam Erat Volutpat Nam Dui</p>
+			<div class="flex-box">
+				<div class="left ">
+                    <img src="/image/img/img6.jpg" alt="">
+					<h1>Praesent placerat magna</h1>
+					 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
+					<button class="more">more</button>
+				</div>
+				<div class="right">
+                    <img src="/image/img/img7.jpg" alt="">
+					<h1>Fusce pellentesque tempus</h1>
+					 <p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
+					<button class="more">more</button>
+				</div>
+			</div>
+		</section>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="inner">
+				<hr class="footer-hr">
+				<div class="copyright">
+				    <p>© Untitled. Design: TEMPLATED. Images: Unsplash.</p>
+				</div>
+                
+				<div class="socialMedia">
+					<span class="fa fa-facebook-official"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-linkedin"></span>
+                    <span class="fa fa-pinterest-p"></span>
+                    <span class="fa fa-vimeo"></span> 
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			var toggle = document.getElementById("toggle");
+			var sidebar = document.getElementById("side");
+			    sidebar.style.left = "-250px";
+			function toggleFunc(){
+				if( sidebar.style.left == "-250px") {
+					sidebar.style.left = "0";
+					sidebar.style.transition = ".3s linear";
+				} else {
+					sidebar.style.left = "-250px";
+					sidebar.style.transition = ".3s linear";
+				}
+			}
+		</script>
+	</body>
+</html>
